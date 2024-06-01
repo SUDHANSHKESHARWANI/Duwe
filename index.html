@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo-white.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Duwe</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Duwe - Leading marketing agency. Contact us for top-notch marketing solutions.">
+    <meta name="keywords" content="marketing, Duwe, digital marketing">
+    <meta name="author" content="Duwe Agency">
+    <!-- Open Graph Meta Tags for Social Media -->
+    <!-- <meta property="og:title" content="Duwe Agency">
+    <meta property="og:description" content="Duwe - Leading marketing agency.">
+    <meta property="og:image" content="/path/to/social-media-image.jpg">
+    <meta property="og:url" content="https://www.yourwebsite.com">
+    <meta property="og:type" content="website"> -->
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Duwe Agency">
+    <meta name="twitter:description" content="Duwe - Leadingmarketing agency.">
+    <!-- <meta name="twitter:image" content="/path/to/twitter-image.jpg"> -->
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="/completeLogoWhite.png">
+    </div>
+    <div class="content">
+      <p>Good things take time. </p>
+      <p class="other">Other ways to reach out to us &rarr; </p>
+      
+      <div class="getInTouch">
+        <a href="mailto:hello@duwe.agency" class="icon-shadow" id="mail-icon">
+          <i class="fas fa-envelope icon"></i>
+        </a>
+        <a href="https://www.instagram.com/duwe.agency" target="_blank" class="icon-shadow">
+          <i class="fa-brands fa-instagram icon"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/duwe-agency/" target="_blank" class="icon-shadow">
+          <i class="fa-brands fa-linkedin icon"></i>
+        </a>
+        <a href="https://x.com/duwe_agency" target="_blank" class="icon-shadow">
+          <i class="fa-brands fa-twitter icon"></i>
+        </a>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="gradient-bg">
+      
+        <defs>
+          <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
+            <feBlend in="SourceGraphic" in2="goo" />
+          </filter>
+        </defs>
+      </svg>
+      <div class="gradients-container">
+        <div class="g1"></div>
+        <div class="g2"></div>
+        <div class="g3"></div>
+        <div class="g4"></div>
+        <div class="g5"></div>
+        <div class="interactive"></div>
+      </div>
+    </div>     
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      document.getElementById('mail-icon').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.open('https://mail.google.com/mail/?view=cm&fs=1&to=hello@duwe.agency', '_blank');
+      });
+    </script>
+  </body>
+</html>
